@@ -125,41 +125,32 @@
     background-color: rgba(196, 18, 24, 0.6);
     color:#fff;
     font-family: "Roboto", sans-serif;
-    font-size: 14px; 
+    font-size: 10px; 
 
 }
 .card-header{
     font-size: 20px;
     padding-bottom: 10px;
 }
-.butonumuzarka{
-background-color: white;
-width: 190px;
-margin-left: auto;
-margin-right: auto;
-height: 45px;
-margin-top: 15px;
-border-radius: 5px;
-}
+
+
+
+
 .card-button{
-    text-decoration: none;
-    color: rgb(202, 30, 30);
     
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-top: 40px; */
-    text-decoration: none;
-    /* padding: 10px 15px; */
-    border-radius: 5px;
-    font-size: 10px;
+    color: rgb(202, 30, 30);
+    background-color: white;
+    border-radius: 12px; 
+    padding: 20px;
+    font-weight: 600;
+    font-size: 13px;
 
 }
 .bizkimiz{
     color: rgb(43, 42, 42);
+
 }
-.card-content{
-    height: 300px;
-}
+
 .bizkimizz{   
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
