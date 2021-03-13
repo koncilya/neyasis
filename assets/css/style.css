@@ -1,0 +1,219 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.uppernav{
+    background-color: rgba(219, 6, 24, 0.7);
+}
+.navbar-container {
+    width: 73%;
+    margin: auto;
+}
+.nav{
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+.nav li {
+    float: left;
+}
+.nav li a, p {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    /* text-decoration: none; yazıdaki dekorasyonlarıın hepsını kaldırıyor */
+}
+
+.nav li:not(.box) {
+    margin-top: 3px;
+}
+
+.box {
+    margin-right: 5px;
+    background: #fff;
+    border-radius: 3px; 
+    /* border-radius: 3px; ovallik */
+    padding: 3px 5px;
+}
+
+.box a {
+    color: rgb(219, 6, 24) !important;
+}
+
+.clearfix {
+    clear: both
+}
+
+.nav li {
+    margin-left: 5px;
+}
+
+#downside-nav{
+    background: rgba(33,37,41, 0.3);
+}
+.down-nav {
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+.down-nav li {
+    float: left;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.down-nav li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.halfBorder {
+    width: 10%;
+    margin: auto;
+}
+
+
+.linkyazimizde{
+    text-align: center;
+    border-radius: 6px;
+    display: inline-block;
+    border: inherit;
+    height: 35px;
+    width: 200px;
+}
+.alt-nb-ul li{
+    margin-right: 20px;
+}
+
+
+.carousel{
+    background-image: url("https://www.neyasis.com/assets/images/homeSlider/kariyer-firsatlari.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    position: relative;
+   
+}
+.text-card{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 32%;
+    background-color: rgba(196, 18, 24, 0.6);
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px; 
+
+}
+.card-header{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.butonumuzarka{
+background-color: white;
+width: 190px;
+margin-left: auto;
+margin-right: auto;
+height: 45px;
+margin-top: 15px;
+border-radius: 5px;
+}
+.card-button{
+    text-decoration: none;
+    color: rgb(202, 30, 30);
+    
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 40px; */
+    text-decoration: none;
+    /* padding: 10px 15px; */
+    border-radius: 5px;
+    font-size: 10px;
+
+}
+.bizkimiz{
+    color: rgb(43, 42, 42);
+}
+.card-content{
+    height: 300px;
+}
+.bizkimizz{   
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(121, 121, 121);
+    background-color:rgb(241, 241, 241);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 19px;
+}
+.linkyazimiz{
+text-decoration: none;
+}
+.ismodelimiz{
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.kartlarımız{
+height: 170px;
+width: 300px;
+background-color: grey;
+margin-right:50px;
+float: left;
+transform: scale(1);
+transition-duration: 0.3s;
+
+}
+.kartlarımız:hover{
+    
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.3s;
+
+}
+.kartlarımız:first-child{
+    margin-left: 280px;
+}
+.kartlarımız:last-child{
+    margin-right: 200px;
+}
+.isbaslik{
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    text-align: center;
+}
+div.ülkemiz{
+    font-size: 16.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.adresbaslik{
+    text-align: center;
+
+}
